@@ -1,0 +1,4 @@
+interface:
+  display_name: "软著材料生成"
+  short_description: "根据系统名称和简介自动生成软著申请三件套及配图文档"
+  default_prompt: "Use $software-copyright-generator 为“校园服务管理平台”根据以下简介生成软著三件套：这是一个面向高校的 Web 管理系统，支持信息录入、查询统计、社区互动和后台管理。"
