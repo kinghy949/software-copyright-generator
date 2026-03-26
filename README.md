@@ -1,5 +1,7 @@
 # software-copyright-generator
 
+[![CI](https://github.com/kinghy949/software-copyright-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/kinghy949/software-copyright-generator/actions/workflows/ci.yml)
+
 一个用于生成软著申请三件套的 Codex Skill。
 
 ![Preview](./assets/showcase/preview-collage.jpg)
@@ -153,6 +155,12 @@ pip install -r requirements.txt
 ```powershell
 $env:PYTHONUTF8='1'
 python "C:\Users\PC\.codex\skills\.system\skill-creator\scripts\quick_validate.py" "."
+```
+
+生成链路的本地烟雾测试：
+
+```powershell
+python ".\scripts\smoke_test.py"
 ```
 
 ## 说明
